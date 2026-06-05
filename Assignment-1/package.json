@@ -1,0 +1,11 @@
+{
+  "name": "notes-app-root",
+  "version": "1.0.0",
+  "description": "Root package wrapper for Render deployment",
+  "main": "notes-app/src/index.js",
+  "scripts": {
+    "postinstall": "npm install --prefix notes-app",
+    "start": "node notes-app/src/index.js"
+  },
+  "dependencies": {}
+}
